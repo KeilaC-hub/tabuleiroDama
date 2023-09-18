@@ -5,7 +5,8 @@ export default function TabuleiroDama() {
     return (
         <>
             <div className={styles.quadradoPreto}></div>
-            <div><CriaTabuleiro css = "quadradoPreto"/></div>
+            <div className={styles.quadradoBranco}></div>
+            
         </>
     )
 }
