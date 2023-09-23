@@ -1,0 +1,28 @@
+.tabuleiro {
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(8, 50px);
+  grid-template-rows: repeat(8, 50px);
+  width: 400px;
+  height: 400px;
+}
+
+.quadrado {
+  width: 50px;
+  height: 50px;
+}
+
+.branco {
+  background-color: white;
+}
+
+.preto {
+  background-color: black;
+}
+
+.peca {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
